@@ -1,19 +1,22 @@
 from tkinter import *
 from tkinter import messagebox
-from password_generator import generate_password
+from password_generator import GeneratePassword
 
 
 # Graphics User Interface of the Program
 class Gui:
     def __init__(self, master):
         self.master = master
+        self.password = []
 
         master.geometry('500x500')  # size
         master.resizable(0, 0)  # Resizable
         master.title('Random Password Generator')  # Title
 
         # Blank Label
-        Label(master, text='').pack(fill=X)
+        Label(
+            master, text=''
+        ).pack(fill=X)
 
         # Heading Label
         Label(
@@ -78,23 +81,45 @@ class Gui:
             master, text='Length:', font=('Times New Roman', 18)
         ).place(x=190, y=265)
         Entry(
-            master, textvariable=self.length, width=2, justify='right', font=('Times New Roman', 18)
+            master, textvariable=self.length, width=2, font=('Times New Roman', 18)
         ).place(x=275, y=265)
+        self.length.set(10)
 
         # Password Display Label
-        Label(master, text='', bg='white', width=32, justify='center', font=('Times New Roman', 18)).place(x=25, y=320)
+        Label(
+            master, text='', bg='white', width=32, justify='center', font=('Times New Roman', 18)
+        ).place(x=25, y=320)
+
+        def c_button():
+            master.clipboard_clear()
+            master.clipboard_append(self.password)
 
         # Button to copy Password to Clipboard
-        Button(master, text='C', font=('Times New Roman', 16)).place(x=425, y=318)
+        Button(
+            master, text='C', command=c_button, font=('Times New Roman', 16)
+        ).place(x=425, y=318)
 
         # Function calls when 'Generate' button is pressed
         def generate_button():
-            # calls 'generate_password' from 'password_generator' python file
-            password = generate_password(
-                self.length.get(), self.uppercase.get(), self.lowercase.get(), self.number.get(), self.symbol.get()
-            )
+            if not 8 <= self.length.get() <= 30:
+                messagebox.showwarning('Warning', 'Length can only be from 8 to 30')
+                return 0
+            try:
+                # calls 'generate_password' from 'password_generator' python file
+                self.password = GeneratePassword(
+                    self.length.get(), self.uppercase.get(), self.lowercase.get(), self.number.get(), self.symbol.get()
+                ).password
+            except TclError:
+                messagebox.showwarning('Warning', 'Length cannot be string')
+            except IndexError:
+                messagebox.showwarning(
+                    'Warning',
+                    'Must checked at least one checkbox\n\n\t=> UpperCase\n\t=> LowerCase\n\t=> Number\n\t=> Symbol'
+                )
+
+            self.password = ''.join(self.password)
             Label(
-                master, text=password, bg='white', width=32, justify='center', font=('Times New Roman', 18)
+                master, text=self.password, bg='white', width=32, justify='center', font=('Times New Roman', 18)
             ).place(x=25, y=320)
 
         # Button to create password

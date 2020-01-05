@@ -1,13 +1,13 @@
 from random import choice
 
 # UpperCase Letters
-upper = 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z'.split()
+_upper = 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z'.split()
 # LowerCase Letters
-lower = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'.split()
+_lower = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'.split()
 # Numbers
-number = '0 1 2 3 4 5 6 7 8 9'.split()
+_number = '0 1 2 3 4 5 6 7 8 9'.split()
 # Symbols
-symbol = '~ ! @ # $ % ^ & *'.split()
+_symbol = '~ ! @ # $ % ^ & *'.split()
 
 
 # Class to generate password
@@ -23,16 +23,16 @@ class GeneratePassword:
 
         # Checking if uppercase letter should be there in password
         if isupper == 1:
-            characters.extend(upper)
+            characters.extend(_upper)
         # Checking if lowercase letter should be there in password
         if islower == 1:
-            characters.extend(lower)
+            characters.extend(_lower)
         # Checking if number should be there in password
         if isnumber == 1:
-            characters.extend(number)
+            characters.extend(_number)
         # Checking if symbol should be there in password
         if issymbol == 1:
-            characters.extend(symbol)
+            characters.extend(_symbol)
 
         self.password = []  # To store password
         while True:
@@ -55,21 +55,15 @@ class GeneratePassword:
             return False
         else:
             if isupper:
-                if len(set(password) & set(upper)) == 0:
+                if len(set(password) & set(_upper)) == 0:
                     return False
             if islower:
-                if len(set(password) & set(lower)) == 0:
+                if len(set(password) & set(_lower)) == 0:
                     return False
             if isnumber:
-                if len(set(password) & set(number)) == 0:
+                if len(set(password) & set(_number)) == 0:
                     return False
             if issymbol:
-                if len(set(password) & set(symbol)) == 0:
+                if len(set(password) & set(_symbol)) == 0:
                     return False
             return True
-
-
-# Password that returns the generated password from the class
-def generate_password(nlength, isupper, islower, isnumber, issymbol):
-    generated_password = GeneratePassword(nlength, isupper, islower, isnumber, issymbol).get_password()
-    return ''.join(generated_password)

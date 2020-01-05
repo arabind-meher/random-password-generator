@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4a4a691-244a-4a8f-a65d-ff4b70080e76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/newfile.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save_password.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/arabind.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/arabind.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/password_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/password_generator.py" afterDir="false" />
@@ -39,7 +42,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
-  <component name="RunManager" selected="Python.gui">
+  <component name="RunManager" selected="Python.save_password">
     <configuration name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Random-Password-Generator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,8 +87,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="save_password" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Random-Password-Generator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/save_password.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.save_password" />
         <item itemvalue="Python.gui" />
         <item itemvalue="Python.password_generator" />
       </list>
@@ -117,7 +143,9 @@
       <workItem from="1578134150688" duration="12853000" />
       <workItem from="1578181508735" duration="4094000" />
       <workItem from="1578216448861" duration="1306000" />
-      <workItem from="1578222771725" duration="4290000" />
+      <workItem from="1578222771725" duration="4550000" />
+      <workItem from="1578236261193" duration="2616000" />
+      <workItem from="1578238888236" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="added comment lines">
       <created>1578224864193</created>
@@ -126,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578224864193</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new">
+      <created>1578227310049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578227310049</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,33 +169,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added comment lines" />
-    <option name="LAST_COMMIT_MESSAGE" value="added comment lines" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="180" width="800" height="672" key="#Inspections" timestamp="1578148422514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="555" y="180" width="800" height="672" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1578148422514" />
-    <state x="500" y="113" width="909" height="806" key="CommitChangelistDialog2" timestamp="1578224862502">
+    <state x="500" y="113" width="909" height="806" key="CommitChangelistDialog2" timestamp="1578227309669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="500" y="113" width="909" height="806" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578224862502" />
-    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1578227276958">
+    <state x="500" y="113" width="909" height="806" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578227309669" />
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1578238878041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578227276958" />
-    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1578227276957">
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578238878041" />
+    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1578238878041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578227276957" />
-    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1578227276956">
+    <state width="1878" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578238878041" />
+    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1578238878041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578227276956" />
-    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1578227276957">
+    <state width="1878" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578238878041" />
+    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1578238878041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578227276957" />
+    <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578238878041" />
     <state x="958" y="113" key="SettingsEditor" timestamp="1578224401116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -169,6 +205,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Random_Password_Generator$random_password_generator.coverage" NAME="random-password-generator Coverage Results" MODIFIED="1578148923729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Random_Password_Generator$password_generator.coverage" NAME="password-generator Coverage Results" MODIFIED="1578184464329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Random_Password_Generator$gui.coverage" NAME="gui Coverage Results" MODIFIED="1578227276922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Random_Password_Generator$gui.coverage" NAME="gui Coverage Results" MODIFIED="1578238434645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Random_Password_Generator$save_password.coverage" NAME="save_password Coverage Results" MODIFIED="1578239059227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
