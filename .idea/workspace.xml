@@ -177,26 +177,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="555" y="180" width="800" height="672" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1578148422514" />
-    <state x="500" y="113" width="909" height="806" key="CommitChangelistDialog2" timestamp="1578227309669">
+    <state x="500" y="113" width="909" height="806" key="CommitChangelistDialog2" timestamp="1578239285368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="500" y="113" width="909" height="806" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578227309669" />
-    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1578238878041">
+    <state x="500" y="113" width="909" height="806" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578239285368" />
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1578239271533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578238878041" />
-    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1578238878041">
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578239271533" />
+    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1578239271532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578238878041" />
-    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1578238878041">
+    <state width="1878" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578239271532" />
+    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1578239271532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578238878041" />
-    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1578238878041">
+    <state width="1878" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578239271532" />
+    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1578239271532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578238878041" />
+    <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578239271532" />
     <state x="958" y="113" key="SettingsEditor" timestamp="1578224401116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -206,6 +206,6 @@
     <SUITE FILE_PATH="coverage/Random_Password_Generator$random_password_generator.coverage" NAME="random-password-generator Coverage Results" MODIFIED="1578148923729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Random_Password_Generator$password_generator.coverage" NAME="password-generator Coverage Results" MODIFIED="1578184464329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Random_Password_Generator$gui.coverage" NAME="gui Coverage Results" MODIFIED="1578238434645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Random_Password_Generator$save_password.coverage" NAME="save_password Coverage Results" MODIFIED="1578239059227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Random_Password_Generator$save_password.coverage" NAME="save_password Coverage Results" MODIFIED="1578239271502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
