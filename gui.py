@@ -1,3 +1,5 @@
+import pyperclip
+
 from tkinter import *
 from tkinter import messagebox
 from password_generator import GeneratePassword
@@ -9,8 +11,8 @@ class Gui:
         self.master = master
         self.password = []
 
-        master.geometry('500x500')  # size
-        master.resizable(0, 0)  # Resizable
+        master.geometry('500x450')  # size
+        master.resizable(0, 0)  # Resizable = False
         master.title('Random Password Generator')  # Title
 
         # Blank Label
@@ -28,76 +30,52 @@ class Gui:
             master, text='-----------------------------------------------------------------------'
         ).pack(fill=X)
 
-        # Domain Label & Entry Field
-        self.domain_text = StringVar()
-        Label(
-            master, text='Domain:', font=('Times New Roman', 18)
-        ).place(x=10, y=75)
-        Entry(
-            master, textvariable=self.domain_text, width=32, font=('Times New Roman', 18)
-        ).place(x=100, y=75)
-
-        # ID Label and Entry Field
-        self.id_text = StringVar()
-        Label(
-            master, text='    ID:', font=('Times New Roman', 18)
-        ).place(x=10, y=115)
-        Entry(
-            master, textvariable=self.id_text, width=32, font=('Times New Roman', 18)
-        ).place(x=100, y=115)
-
-        # Line Label (for better graphics)
-        Label(
-            master, text='-----------------------------------------------------------------------'
-        ).place(y=155)
-
         # UpperCase CheckButton
         self.uppercase = IntVar()
         Checkbutton(
             master, text='  UpperCase', variable=self.uppercase, onvalue=1, offvalue=0, font=('Times New Roman', 18)
-        ).place(x=20, y=180)
+        ).place(x=20, y=100)
 
         # LowerCase CheckButton
         self.lowercase = IntVar()
         Checkbutton(
             master, text='  LowerCase', variable=self.lowercase, onvalue=1, offvalue=0, font=('Times New Roman', 18)
-        ).place(x=250, y=180)
+        ).place(x=250, y=100)
 
         # Number CheckButton
         self.number = IntVar()
         Checkbutton(
             master, text='  Number', variable=self.number, onvalue=1, offvalue=0, font=('Times New Roman', 18)
-        ).place(x=20, y=220)
+        ).place(x=20, y=150)
 
         # Symbol CheckButton
         self.symbol = IntVar()
         Checkbutton(
             master, text='  Symbol', variable=self.symbol, onvalue=1, offvalue=0, font=('Times New Roman', 18)
-        ).place(x=250, y=220)
+        ).place(x=250, y=150)
 
         # Password Length Label & Entry Field
         self.length = IntVar()
         Label(
             master, text='Length:', font=('Times New Roman', 18)
-        ).place(x=190, y=265)
+        ).place(x=180, y=220)
         Entry(
             master, textvariable=self.length, width=2, font=('Times New Roman', 18)
-        ).place(x=275, y=265)
+        ).place(x=265, y=220)
         self.length.set(10)
 
         # Password Display Label
         Label(
             master, text='', bg='white', width=32, justify='center', font=('Times New Roman', 18)
-        ).place(x=25, y=320)
+        ).place(x=15, y=300)
 
         def c_button():
-            master.clipboard_clear()
-            master.clipboard_append(self.password)
+            pyperclip.copy(self.password)
 
         # Button to copy Password to Clipboard
         Button(
-            master, text='C', command=c_button, font=('Times New Roman', 16)
-        ).place(x=425, y=318)
+            master, text='Copy', command=c_button, font=('Times New Roman', 16)
+        ).place(x=415, y=297)
 
         # Function calls when 'Generate' button is pressed
         def generate_button():
@@ -120,24 +98,14 @@ class Gui:
             self.password = ''.join(self.password)
             Label(
                 master, text=self.password, bg='white', width=32, justify='center', font=('Times New Roman', 18)
-            ).place(x=25, y=320)
+            ).place(x=15, y=300)
 
         # Button to create password
         Button(
             master, text='Generate', command=generate_button, padx=60, font=('Times New Roman', 16)
-        ).place(x=150, y=370)
+        ).place(x=150, y=375)
 
-        # Line Label (for better graphics)
-        Label(
-            master, text='-----------------------------------------------------------------------'
-        ).place(y=420)
-
-        # Button to save 'Domain', 'ID' & 'Password' to a .csv file
-        Button(
-            master, text='  Save  ', padx=60, font=('Times New Roman', 16)
-        ).place(x=150, y=450)
-
-
+ 
 # Main Function
 if __name__ == '__main__':
     root = Tk()

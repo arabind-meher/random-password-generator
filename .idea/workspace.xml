@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4a4a691-244a-4a8f-a65d-ff4b70080e76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newfile.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/save_password.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/arabind.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/arabind.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/password_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/password_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/password.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_password.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
-  <component name="RunManager" selected="Python.save_password">
+  <component name="RunManager" selected="Python.gui">
     <configuration name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Random-Password-Generator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,8 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.save_password" />
         <item itemvalue="Python.gui" />
+        <item itemvalue="Python.save_password" />
         <item itemvalue="Python.password_generator" />
       </list>
     </recent_temporary>
@@ -145,7 +143,7 @@
       <workItem from="1578216448861" duration="1306000" />
       <workItem from="1578222771725" duration="4550000" />
       <workItem from="1578236261193" duration="2616000" />
-      <workItem from="1578238888236" duration="358000" />
+      <workItem from="1578238888236" duration="2862000" />
     </task>
     <task id="LOCAL-00001" summary="added comment lines">
       <created>1578224864193</created>
@@ -161,7 +159,35 @@
       <option name="project" value="LOCAL" />
       <updated>1578227310049</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new">
+      <created>1578239251512</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578239251512</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new">
+      <created>1578239298438</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578239298438</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new">
+      <created>1578239321795</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578239321795</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new">
+      <created>1578239330443</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578239330443</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,26 +203,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="555" y="180" width="800" height="672" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1578148422514" />
-    <state x="500" y="113" width="909" height="806" key="CommitChangelistDialog2" timestamp="1578239330363">
+    <state x="693" y="269" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578240000301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="500" y="113" width="909" height="806" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578239330363" />
-    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1578239311455">
+    <state x="693" y="269" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578240000301" />
+    <state x="500" y="113" width="909" height="806" key="CommitChangelistDialog2" timestamp="1578241754928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578239311455" />
-    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1578239311454">
+    <state x="500" y="113" width="909" height="806" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578241754928" />
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1578241634033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578239311454" />
-    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1578239311454">
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578241634033" />
+    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1578241634032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578239311454" />
-    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1578239311455">
+    <state width="1878" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578241634032" />
+    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1578241634032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578239311455" />
+    <state width="1878" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578241634032" />
+    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1578241634032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578241634032" />
+    <state width="1878" height="342" key="GridCell.Tab.1.bottom" timestamp="1578240888321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578240888321" />
+    <state width="1878" height="342" key="GridCell.Tab.1.center" timestamp="1578240888321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578240888321" />
+    <state width="1878" height="342" key="GridCell.Tab.1.left" timestamp="1578240888320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578240888320" />
+    <state width="1878" height="342" key="GridCell.Tab.1.right" timestamp="1578240888321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578240888321" />
+    <state x="678" y="233" width="554" height="567" key="RollbackChangesDialog" timestamp="1578240028963">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="678" y="233" width="554" height="567" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578240028963" />
     <state x="958" y="113" key="SettingsEditor" timestamp="1578224401116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -205,7 +255,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Random_Password_Generator$random_password_generator.coverage" NAME="random-password-generator Coverage Results" MODIFIED="1578148923729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Random_Password_Generator$password_generator.coverage" NAME="password-generator Coverage Results" MODIFIED="1578184464329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Random_Password_Generator$gui.coverage" NAME="gui Coverage Results" MODIFIED="1578238434645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Random_Password_Generator$save_password.coverage" NAME="save_password Coverage Results" MODIFIED="1578239311423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Random_Password_Generator$gui.coverage" NAME="gui Coverage Results" MODIFIED="1578241634021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Random_Password_Generator$save_password.coverage" NAME="save_password Coverage Results" MODIFIED="1578239704766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
