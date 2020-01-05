@@ -69,6 +69,7 @@ class GeneratePassword:
             return True
 
 
+# Password that returns the generated password from the class
 def generate_password(nlength, isupper, islower, isnumber, issymbol):
     generated_password = GeneratePassword(nlength, isupper, islower, isnumber, issymbol).get_password()
     return ''.join(generated_password)

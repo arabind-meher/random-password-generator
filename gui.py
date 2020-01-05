@@ -1,4 +1,5 @@
 from tkinter import *
+from tkinter import messagebox
 from password_generator import generate_password
 
 
@@ -88,7 +89,8 @@ class Gui:
 
         # Function calls when 'Generate' button is pressed
         def generate_button():
-            password = self.get_password(
+            # calls 'generate_password' from 'password_generator' python file
+            password = generate_password(
                 self.length.get(), self.uppercase.get(), self.lowercase.get(), self.number.get(), self.symbol.get()
             )
             Label(
@@ -97,7 +99,7 @@ class Gui:
 
         # Button to create password
         Button(
-            master, text='Generate', command=generate_button, font=('Times New Roman', 16), padx=60
+            master, text='Generate', command=generate_button, padx=60, font=('Times New Roman', 16)
         ).place(x=150, y=370)
 
         # Line Label (for better graphics)
@@ -106,12 +108,9 @@ class Gui:
         ).place(y=420)
 
         # Button to save 'Domain', 'ID' & 'Password' to a .csv file
-        Button(master, text='  Save  ', font=('Times New Roman', 16), padx=60).place(x=150, y=450)
-
-    # Method that calls 'generate_password' from 'password_generator' python file
-    @staticmethod
-    def get_password(n_length, is_upper, is_lower, is_number, is_symbol):
-        return generate_password(n_length, is_upper, is_lower, is_number, is_symbol)
+        Button(
+            master, text='  Save  ', padx=60, font=('Times New Roman', 16)
+        ).place(x=150, y=450)
 
 
 # Main Function

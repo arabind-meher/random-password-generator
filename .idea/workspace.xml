@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4a4a691-244a-4a8f-a65d-ff4b70080e76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/password_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/password_generator.py" afterDir="false" />
@@ -118,34 +117,50 @@
       <workItem from="1578134150688" duration="12853000" />
       <workItem from="1578181508735" duration="4094000" />
       <workItem from="1578216448861" duration="1306000" />
-      <workItem from="1578222771725" duration="2032000" />
+      <workItem from="1578222771725" duration="4290000" />
     </task>
+    <task id="LOCAL-00001" summary="added comment lines">
+      <created>1578224864193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578224864193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added comment lines" />
+    <option name="LAST_COMMIT_MESSAGE" value="added comment lines" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="180" width="800" height="672" key="#Inspections" timestamp="1578148422514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="555" y="180" width="800" height="672" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1578148422514" />
-    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1578224828988">
+    <state x="500" y="113" width="909" height="806" key="CommitChangelistDialog2" timestamp="1578224862502">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578224828988" />
-    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1578224828985">
+    <state x="500" y="113" width="909" height="806" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578224862502" />
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1578227276958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578224828984" />
-    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1578224828982">
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578227276958" />
+    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1578227276957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578224828982" />
-    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1578224828986">
+    <state width="1878" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578227276957" />
+    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1578227276956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578224828986" />
+    <state width="1878" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578227276956" />
+    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1578227276957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578227276957" />
     <state x="958" y="113" key="SettingsEditor" timestamp="1578224401116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -154,6 +169,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Random_Password_Generator$random_password_generator.coverage" NAME="random-password-generator Coverage Results" MODIFIED="1578148923729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Random_Password_Generator$password_generator.coverage" NAME="password-generator Coverage Results" MODIFIED="1578184464329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Random_Password_Generator$gui.coverage" NAME="gui Coverage Results" MODIFIED="1578224808019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Random_Password_Generator$gui.coverage" NAME="gui Coverage Results" MODIFIED="1578227276922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
